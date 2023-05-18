@@ -19,10 +19,10 @@ const HomePage = () => {
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+        className="flex-[0.5] lg:max-w-[370px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px]  border-[#6A6A6A] relative"
       >
         <div className="feedback-gradient" />
-        <div>
+        <div className='relative'>
           <p className="font-bold sm:text-[25px] text-center text-[18px] sm:leading-[22.68px] leading-[26.68px] text-green-700">
             METALÚRGICA
           </p>
@@ -32,12 +32,12 @@ const HomePage = () => {
           <p className="mt-[14px] font-bold sm:text-[20px] text-center text-[12px] sm:leading-[22.68px] leading-[16.68px] text-gray-400">
             OPERACIONES MECÁNICAS Y METALÚRGICAS
           </p>
-        </div>
 
         <p className="mt-[25px] font-bold sm:text-[24px] text-center text-[18px] sm:leading-[30.6px] leading-[20.6px] text-gray-400">
           Proveedor de soluciones integrales en los servicios de diseño,
           mantenimiento y montaje de equipos de minería y construcción.
         </p>
+        </div>
       </motion.div>
 
       <motion.div

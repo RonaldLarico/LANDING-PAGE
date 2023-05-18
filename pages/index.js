@@ -9,12 +9,12 @@ import Footer from '../components/Footer/Index';
 
 export default function Home() {
   return (
-    <div className="bg-primary-black overflow-hidden">
+    <div className="bg-[url('../public/planet-09.png')] overflow-hidden">
 
-      <div className="relative">
+       <div className="relative">
         <div className="gradient-04 z-0" />
         <HomePage />
-      </div>
+       </div>
 
       <Services />
 
