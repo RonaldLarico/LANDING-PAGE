@@ -1,21 +1,28 @@
-import NavBar from '../components/NavBar';
-import HomePage from '../components/Home';
+
+import HomePage from '../components/Home/Index';
 import Services from '../components/Services';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Layout from '../components/Layout';
+import Footer from '../components/Footer/Index';
+
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-primary-black overflow-hidden">
 
-      <HomePage />
+      <div className="relative">
+        <div className="gradient-04 z-0" />
+        <HomePage />
+      </div>
 
       <Services />
 
       <About />
 
       <Contact />
+
+      <Footer />
 
     </div>
   );
