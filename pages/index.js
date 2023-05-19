@@ -5,24 +5,35 @@ import About from '../components/About';
 import Contact from '../components/Contact';
 import Layout from '../components/Layout';
 import Footer from '../components/Footer/Index';
+import Whatsapp from '../components/whatsapp';
 
 
 export default function Home() {
   return (
-    <div className="bg-[url('../public/planet-09.png')] overflow-hidden">
+    <div className="bg-contain overflow-hidden">
 
-       <div className="relative">
+      <Whatsapp />
+
+      <div className="bg-[url('../public/metalurgica-jesac-fondo-3.jpg')] bg-contain">
         <div className="gradient-04 z-0" />
         <HomePage />
-       </div>
+      </div>
 
       <Services />
 
       <About />
 
-      <Contact />
+      <div className="relative">
 
+      <div className="gradient-04 z-0" />
+        <Contact />
+      </div>
+
+      <div className="relative">
+
+      <div className="gradient-04 z-0" />
       <Footer />
+      </div>
 
     </div>
   );

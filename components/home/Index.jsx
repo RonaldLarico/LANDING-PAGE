@@ -1,9 +1,14 @@
 import React from 'react'
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 import { motion } from 'framer-motion';
 
 import styles from '../../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../../utils/motion';
+
+import Link from 'next/link';
 
 const HomePage = () => {
   return (
@@ -29,14 +34,46 @@ const HomePage = () => {
           <h4 className="mt-[4px] font-bold sm:text-[92px] text-center text-[56px] sm:leading-[80.32px] leading-[26.32px] text-cyan-600">
             JESAC
           </h4>
-          <p className="mt-[14px] font-bold sm:text-[20px] text-center text-[12px] sm:leading-[22.68px] leading-[16.68px] text-gray-400">
+          <p className="mt-[14px] font-bold sm:text-[20px] text-center text-[12px] sm:leading-[22.68px] leading-[16.68px] text-gray-200">
             OPERACIONES MECÁNICAS Y METALÚRGICAS
           </p>
 
-        <p className="mt-[25px] font-bold sm:text-[24px] text-center text-[18px] sm:leading-[30.6px] leading-[20.6px] text-gray-400">
+        <p className="mt-[25px] font-bold sm:text-[24px] text-center text-[18px] sm:leading-[30.6px] leading-[20.6px] text-gray-200">
           Proveedor de soluciones integrales en los servicios de diseño,
           mantenimiento y montaje de equipos de minería y construcción.
         </p>
+        <br></br>
+        <br></br>
+          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+            <a
+              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='text-cyan-600 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-2xl'>
+                <FaLinkedinIn />
+              </div>
+            </a>
+            <a
+              href='https://github.com/fireclint'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='text-cyan-600 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-2xl'>
+                <FaGithub />
+              </div>
+            </a>
+            <Link href='/resume'>
+              <div className='text-cyan-600 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-2xl'>
+                <BsFillPersonLinesFill />
+              </div>
+            </Link>
+            <Link href='#contact'>
+              <div className='text-cyan-600 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-2xl'>
+                <AiOutlineMail />
+              </div>
+            </Link>
+          </div>
         </div>
       </motion.div>
 
