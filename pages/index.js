@@ -1,25 +1,30 @@
 
 import HomePage from '../components/Home/Index';
-import Services from '../components/Services';
+import Services from '../components/services/Index';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Layout from '../components/Layout';
 import Footer from '../components/Footer/Index';
 import Whatsapp from '../components/whatsapp';
+import Service from '../components/services/service';
 
 
 export default function Home() {
   return (
-    <div className="bg-contain overflow-hidden">
+    <div className="bg-contain overflow-hidden bg-black">
 
       <Whatsapp />
 
-      <div className="bg-[url('../public/metalurgica-jesac-fondo-3.jpg')] bg-contain">
+      <div className="bg-contain">
         <div className="gradient-04 z-0" />
         <HomePage />
       </div>
 
+      <div className="gradient-03 z-0" />
       <Services />
+
+      <div className="gradient-03 z-0" />
+      <Service />
 
       <About />
 
@@ -46,3 +51,5 @@ Home.getLayout = function getLayout(page) {
     </Layout>
   )
 }
+
+//bg-[url('../public/metalurgica-jesac-fondo-3.jpg')]

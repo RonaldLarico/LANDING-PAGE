@@ -55,7 +55,7 @@ function NavBar() {
                 </li>
                 <li className="font-bold pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">
                   <Link href="#services" onClick={() => setNavbar(!navbar)}>
-                    Servicio
+                    Servicios
                   </Link>
                 </li>
                 <li className="font-bold pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">

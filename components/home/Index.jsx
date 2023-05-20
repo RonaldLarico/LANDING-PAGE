@@ -1,7 +1,6 @@
 import React from 'react'
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { BsFillEnvelopeAtFill, BsFillPersonLinesFill, BsFacebook } from 'react-icons/bs';
+import { IoLogoWhatsapp } from 'react-icons/Io';
 
 import { motion } from 'framer-motion';
 
@@ -44,39 +43,37 @@ const HomePage = () => {
         </p>
         <br></br>
         <br></br>
+        {/* icons homePage */}
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+            <Link
+              href='https://wa.me/+51991303509?text=Hola,%20deseo%20realizar%20una%20consulta%20'
               target='_blank'
               rel='noreferrer'
             >
               <div className='text-cyan-600 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-2xl'>
-                <FaLinkedinIn />
-              </div>
-            </a>
-            <a
-              href='https://github.com/fireclint'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='text-cyan-600 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-2xl'>
-                <FaGithub />
-              </div>
-            </a>
-            <Link href='/resume'>
-              <div className='text-cyan-600 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-2xl'>
-                <BsFillPersonLinesFill />
+                <IoLogoWhatsapp />
               </div>
             </Link>
-            <Link href='#contact'>
+            <Link
+              href='https://www.facebook.com'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div className='text-cyan-600 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-2xl'>
-                <AiOutlineMail />
+                <BsFacebook />
+              </div>
+            </Link>
+            <Link
+              href='https://www.gmail.com'
+              target='_blank'>
+              <div className='text-cyan-600 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-2xl'>
+              <BsFillEnvelopeAtFill />
               </div>
             </Link>
           </div>
         </div>
       </motion.div>
-
+      {/* Imagen principal */}
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="relative flex-1 flex justify-center items-center"
