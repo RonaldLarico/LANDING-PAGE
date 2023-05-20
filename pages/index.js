@@ -7,7 +7,7 @@ import Layout from '../components/Layout';
 import Footer from '../components/Footer/Index';
 import Whatsapp from '../components/whatsapp';
 import Service from '../components/services/service';
-
+import Design from '../components/design/Index';
 
 export default function Home() {
   return (
@@ -19,9 +19,13 @@ export default function Home() {
         <div className="gradient-04 z-0" />
         <HomePage />
       </div>
+      <div className="w-full h-screen absolute top-0 left-0">
+        <Design />
 
+      </div>
       <div className="gradient-03 z-0" />
       <Services />
+
 
       <div className="gradient-03 z-0" />
       <Service />
