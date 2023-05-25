@@ -13,41 +13,39 @@ export default function Home() {
   return (
   <div className="bg-contain overflow-hidden bg-black">
 
-    <div className="w-full h-screen bg-no-repeat bg-center bg-cover relative">
-    <div className="w-full h-screen absolute top-0 left-0">
+    <div className="w-full h-screen lg:h-auto bg-no-repeat bg-center bg-cover">
+      <div className="w-full h-screen absolute top-0 left-0">
         <Design />
+      </div>
+      <div className="gradient-02 z-0" />
+      <HomePage />
     </div>
-      <Whatsapp />
 
-      <div className="bg-contain">
-        <div className="gradient-04 z-0" />
-        <HomePage />
-      </div>
-      </div>
-
-      <div className="bg-contain">
-      <div className="gradient-03 z-0" />
+    <div className="relative">
+      <div className="gradient-04 z-0" />
       <Services />
-      </div>
+    </div>
 
-
-      <div className="gradient-03 z-0" />
+    <div className="relative">
+      <div className="gradient-04 z-0" />
+      <div className="gradient-02 z-0" />
       <Service />
+    </div>
 
+    <div className="relative">
+      <div className="gradient-03 z-0" />
+      <div className="gradient-02 z-0" />
       <About />
+    </div>
 
-      <div className="relative">
+    <div className="relative">
+      <div className="gradient-03 z-0" />
+      <Contact />
+    </div>
 
-      <div className="gradient-04 z-0" />
-        <Contact />
-      </div>
-
-      <div className="relative">
-
-      <div className="gradient-04 z-0" />
       <Footer />
-      </div>
 
+      <Whatsapp />
     </div>
   );
 }
