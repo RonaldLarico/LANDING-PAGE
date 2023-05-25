@@ -19,7 +19,7 @@ const Services = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto flex flex-col mt-[200px] lg:mt-auto`}
       >
         <TypingText title="| SERVICIOS" textStyles="text-center" />
         <TitleText

@@ -7,6 +7,7 @@ import styles from '../../styles';
 import { exploreWorlds } from '../constants';
 import { staggerContainer } from '../../utils/motion';
 import ExploreCard from '../cards/ExploreCard';
+import { TypingText } from '../cards/CustomTexts';
 
 const Service = () => {
   const [active, setActive] = useState('world-2');
@@ -18,8 +19,9 @@ const Service = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto flex flex-col lg:mt-[100px]`}
       >
+        <TypingText title="| MAS SERVICIOS" textStyles="text-center" />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard

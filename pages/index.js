@@ -11,20 +11,24 @@ import Design from '../components/design/Index';
 
 export default function Home() {
   return (
-    <div className="bg-contain overflow-hidden bg-black">
+  <div className="bg-contain overflow-hidden bg-black">
 
+    <div className="w-full h-screen bg-no-repeat bg-center bg-cover relative">
+    <div className="w-full h-screen absolute top-0 left-0">
+        <Design />
+    </div>
       <Whatsapp />
 
       <div className="bg-contain">
         <div className="gradient-04 z-0" />
         <HomePage />
       </div>
-      <div className="w-full h-screen absolute top-0 left-0">
-        <Design />
-
       </div>
+
+      <div className="bg-contain">
       <div className="gradient-03 z-0" />
       <Services />
+      </div>
 
 
       <div className="gradient-03 z-0" />
