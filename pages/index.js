@@ -8,6 +8,7 @@ import Footer from '../components/footer/Index';
 import Whatsapp from '../components/whatsapp';
 import Service from '../components/services/service';
 import Design from '../components/design/Index';
+import AboutUs from '../components/about/AboutUs'
 
 export default function Home() {
   return (
@@ -36,6 +37,12 @@ export default function Home() {
       <div className="gradient-03 z-0" />
       <div className="gradient-02 z-0" />
       <About />
+    </div>
+
+    <div className="relative">
+      <div className="gradient-03 z-0" />
+      <div className="gradient-02 z-0" />
+      <AboutUs />
     </div>
 
     <div className="relative">
