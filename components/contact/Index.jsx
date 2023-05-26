@@ -12,13 +12,13 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import contact from '../../public/contact.jpg'
 
-import { fadeIn, staggerContainer, zoomIn } from '../../utils/motion';
+import { fadeIn, staggerContainer} from '../../utils/motion';
 import { TypingText } from '../cards/CustomTexts';
 
 const Contact = () => {
   return (
       <section id='contact' className='w-full lg:h-screen'>
-        <motion.div className='max-w-[1280px] m-auto px-2 py-16 w-full '
+        <motion.div className='max-w-[1280px] m-auto px-2 py-16 w-full'
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"

@@ -28,21 +28,21 @@ export const exploreWorlds = [
 
 export const newFeatures = [
     {
-      imgUrl: '/vrpano.svg',
-      title: 'A new world',
+      imgUrl: '/headset.svg',
+      title: 'VISIÓN',
       subtitle:
-          'we have the latest update with new world for you to try never mind',
+      'Desarrollar proyectos de clase mundial, practicando la mejora continua y la proactividad. Siendo un referente en la prevención de riesgos laborales y salud ocupacional.',
     },
     {
-      imgUrl: '/headset.svg',
-      title: 'More realistic',
+      imgUrl: '/vrpano.svg',
+      title: 'MISIÓN',
       subtitle:
-          'In the latest update, your eyes are narrow, making the world more realistic than ever',
+          'Ser reconocido empresa líder a nivel nacional, en el sector metalúrgico, siendo parte de la solución y por ende en el éxito de nuestros clientes.',
     },
   ];
 
 export const startingFeatures = [
-    'Find a world that suits you and you want to enter',
-    'Enter the world by reading basmalah to be safe',
-    'No need to beat around the bush, just stay on the gas and have fun',
+    'COMPROMISO: Cumpliendo con todo aquello que nos comprometemos.',
+    'RESPONSABILIDAD: Respeto a todo nuestros grupos de interés.',
+    'INNOVACION: Desarrollar tecnología, trabajando en equipo.',
   ];

@@ -19,9 +19,9 @@ const Service = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col lg:mt-[100px]`}
+        className={`${styles.innerWidth} mx-auto flex flex-col lg:mt-[180px]`}
       >
-        <TypingText title="| MAS SERVICIOS" textStyles="text-center" />
+        <TypingText title="| SERVICIOS EN METALMECÁNICA" textStyles="text-center" />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
