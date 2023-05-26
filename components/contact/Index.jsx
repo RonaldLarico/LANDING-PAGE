@@ -10,9 +10,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { motion } from 'framer-motion';
-import contact from '../public/contact.jpg'
+import contact from '../../public/contact.jpg'
 
-import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
+import { fadeIn, staggerContainer, zoomIn } from '../../utils/motion';
+import { TypingText } from '../cards/CustomTexts';
 
 const Contact = () => {
   return (
@@ -22,9 +23,8 @@ const Contact = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}>
-        <h4 className='mt-[4px] font-bold sm:text-[52px] text-[56px] sm:leading-[80.32px] leading-[26.32px] uppercase text-cyan-600'>
-          Contacto
-        </h4>
+        <TypingText title="| CONTACTO" textStyles="text-center" />
+
         <h2 className='py-4'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
@@ -38,31 +38,31 @@ const Contact = () => {
                   alt='/'
                 />
               </div>
-              <ul className='flex items-center justify-normal py-4'>
+              <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <FaMapMarkerAlt className='text-3xl'/>
                 <li className='mt-[4px] font-bold text-lg'> | Av Sacsayhuaman N° 1680</li>
               </ul>
-              <ul className='flex items-center justify-normal py-4'>
+              <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <BsFillEnvelopeAtFill className='text-3xl'/>
                 <li className='mt-[4px] font-bold text-lg'> | Jesac@gmail.com</li>
               </ul>
-              <ul className='flex items-center justify-normal py-4'>
+              <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <BsTelephoneInboundFill className='text-3xl'/>
                 <li className='mt-[4px] font-bold text-lg'> | +51 991 303 509</li>
               </ul>
-              <ul className='flex items-center justify-normal py-4'>
+              <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <FaMapMarkerAlt className='text-3xl'/>
                 <li className='mt-[4px] font-bold text-lg'> | Juliaca - Perú</li>
               </ul>
               <div>
-                <p className='font-bold text-xl uppercase pt-6'>Contactanos</p>
+                <p className='font-bold text-xl uppercase pt-6 text-gray-300'>Contactanos</p>
                 <div className='flex items-center justify-between py-4'>
                   <Link
                     href='https://wa.me/+51991303509?text=Hola,%20deseo%20realizar%20una%20consulta%20'
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-3xl'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 text-4xl text-gray-300'>
                       <IoLogoWhatsapp />
                     </div>
                   </Link>
@@ -71,7 +71,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-3xl'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 text-4xl text-gray-300'>
                       <BsFacebook />
                     </div>
                   </Link>
@@ -80,14 +80,14 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-3xl'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 text-4xl text-gray-300'>
                       <FaTiktok />
                     </div>
                   </Link>
                   <Link
                   href='https://www.gmail.com'
                   target='_blank'>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 text-3xl'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 text-4xl text-gray-300'>
                   <BsFillEnvelopeAtFill />
                   </div>
                   </Link>
@@ -108,7 +108,7 @@ const Contact = () => {
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
-                    <label className='font-bold uppercase text-sm py-2'>Nombres</label>
+                    <label className='font-bold uppercase text-sm py-2 text-gray-300'>Nombres</label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
@@ -116,7 +116,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className='flex flex-col'>
-                    <label className='font-bold uppercase text-sm py-2'>
+                    <label className='font-bold uppercase text-sm py-2 text-gray-300'>
                       N° celular
                     </label>
                     <input
@@ -127,7 +127,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='font-bold uppercase text-sm py-2'>Email</label>
+                  <label className='font-bold uppercase text-sm text-gray-300 py-2'>Email</label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='email'
@@ -135,7 +135,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='font-bold uppercase text-sm py-2'>Título</label>
+                  <label className='font-bold uppercase text-sm text-gray-300 py-2'>Título</label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
@@ -143,14 +143,14 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='font-bold uppercase text-sm py-2'>Mensaje</label>
+                  <label className='font-bold uppercase text-sm text-gray-300 py-2'>Mensaje</label>
                   <textarea
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'
                     name='message'
                   ></textarea>
                 </div>
-                <button className='font-bold uppercase rounded-lg bg-cyan-600 hover:bg-cyan-500 w-auto p-4 text-white mt-4 text-l'>
+                <button className='font-bold uppercase rounded-lg bg-cyan-600 hover:bg-cyan-500 w-auto p-4 text-gray-300 mt-4 text-l'>
                   Enviar Mensaje
                 </button>
               </form>
@@ -161,7 +161,7 @@ const Contact = () => {
           <Link href='/'>
               <div className='animate-bounce rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#5651e5]'
+                  className='text-gray-300'
                   size={30}
                 />
               </div>

@@ -1,10 +1,10 @@
 
 import HomePage from '../components/Home/Index';
 import Services from '../components/services/Index';
-import About from '../components/About';
-import Contact from '../components/Contact';
-import Layout from '../components/Layout';
-import Footer from '../components/Footer/Index';
+import About from '../components/about/Index';
+import Contact from '../components/contact/Index';
+import Layout from '../components/layout/Index';
+import Footer from '../components/footer/Index';
 import Whatsapp from '../components/whatsapp';
 import Service from '../components/services/service';
 import Design from '../components/design/Index';
@@ -40,6 +40,7 @@ export default function Home() {
 
     <div className="relative">
       <div className="gradient-03 z-0" />
+      <div className="gradient-02 z-0" />
       <Contact />
     </div>
 

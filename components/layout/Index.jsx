@@ -2,7 +2,7 @@ import React from 'react'
 
 import Head from 'next/head'
 
-import NavBar from './NavBar'
+import NavBar from '../navbar/Index'
 
 const Layout = ({ children }) => {
   return (
