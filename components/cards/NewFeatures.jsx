@@ -11,7 +11,7 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
     <h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] text-white">
       <TypingText title={title} />
     </h1>
-    <p className="flex-1 mt-[16px] font-bold text-[20px] text-[#B0B0B0] leading-[30.4px]">
+    <p className="flex-1 mt-[16px] font-bold text-[20px] text-gray-300 leading-[30.4px]">
       {subtitle}
     </p>
   </div>

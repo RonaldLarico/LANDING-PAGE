@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 import styles from '../../styles';
 import { startingFeatures } from '../constants';
-import { TitleText, TypingText } from '../cards/CustomTexts';
+import { TypingText } from '../cards/CustomTexts';
 import StartSteps from '../cards/StartSteps'
 import { staggerContainer, fadeIn, planetVariants } from '../../utils/motion';
 
@@ -14,7 +14,7 @@ const GetStarted = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 mt-[180px] lg:mt-auto`}
     >
       <motion.div
         variants={planetVariants('left')}
