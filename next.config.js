@@ -10,5 +10,6 @@ const nextConfig = {
 module.exports = {
   images: {
     domains: ['images.pexels.com'],
+    unoptimized: true,
   },
 };
