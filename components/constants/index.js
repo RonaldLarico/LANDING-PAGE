@@ -29,28 +29,28 @@ export const metalCard = [
   export const miningCard = [
     {
       id: 'mining-1',
-      imgUrl: '/metalurgica-jesac-fondo-3.jpg',
+      imgUrl: '/metalurgica-jesac-procesos-metalurgicos.jpg',
       title: 'ASESORÍA Y CONSULTORÍA EN PROCESOS METALÚRGICOS',
       subtitle:'Asesoría en flotación, Lixiviación, Gravimetría, magnética, fundición y refinación',
       subtitles: 'Pruebas metalúrgicas de minerales (oro, plata, estaño)',
     },
     {
       id: 'mining-2',
-      imgUrl: '/metalurgica-jesac-fondo.jpg',
+      imgUrl: '/metalurgica-jesac-plantas-concentradoras.jpg',
       title: 'INSTALACÍON DE PLANTAS CONCENTRADORAS DE MINERALES',
       subtitle: 'Mantenimiento preventivo de plantas concentradoras',
       subtitles: 'Elaboración de costos y presupuestos',
     },
     {
       id: 'mining-3',
-      imgUrl: '/metalurgica-jesac-fondo1.jpg',
+      imgUrl: '/metalurgica-jesac-absorcion.jpg',
       title: 'ABSORCIÓN Y DESORCIÓN DE CARBÓN ACTIVADO',
       subtitle: 'Diseño y fabricación de plantas concentradoras continuas',
       subtitles: 'Suministro para procesos metalúrgicos',
     },
     {
       id: 'mining-4',
-      imgUrl: '/metalurgica-jesac-home.jpg',
+      imgUrl: '/metalurgica-jesac-caja-separador-magnetico.jpg',
       title: 'SEPARADORES MAGNÉTICOS',
       subtitle: 'Separadores magnéticos para (hierro, wolframio, shelita, estaño, etc)',
       subtitles: 'Emjebado de accesorios para celdas de flotación',
