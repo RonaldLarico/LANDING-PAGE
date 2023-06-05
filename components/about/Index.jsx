@@ -1,4 +1,5 @@
 import React from 'react'
+import Typed from 'react-typed';
 
 import { motion } from 'framer-motion';
 
@@ -23,7 +24,15 @@ const About = () => {
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TypingText title="| SOBRE NOSOTROS" />
-        <TitleText title={<>Somos una empresa COMPROMETIDA con los resultados</>} />
+        <TitleText title={<>Somos una empresa</>} />
+        <Typed
+        className='mt-[8px] font-bold md:text-[60px] text-[30px] text-gray-300'
+        strings={['COMPROMETIDA', 'RESPONSABLE', 'INNOVADORA']}
+        typeSpeed={140}
+        backSpeed={40}
+        loop
+        />
+        <TitleText title={<>con los resultados</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
@@ -36,9 +45,9 @@ const About = () => {
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/planet-09.png"
+          src="/metalurgica-jesac.jpg"
           alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
+          className="w-[90%] h-[90%] rounded-full "
         />
       </motion.div>
     </motion.div>

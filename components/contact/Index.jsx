@@ -17,7 +17,7 @@ import { TypingText } from '../cards/CustomTexts';
 
 const Contact = () => {
   return (
-      <section id='contact' className='w-full lg:h-screen'>
+      <section id='contact' className='w-full mt-[220px] lg:mt-auto'>
         <motion.div className='max-w-[1280px] m-auto px-2 py-16 w-full'
         variants={staggerContainer}
         initial="hidden"

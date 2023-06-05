@@ -70,7 +70,7 @@ function NavBar() {
                 </li>
                 <li className="text-white hover:text-green-700 py-6 pl-35 lg:pl-20 text-center  border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-green-600 md:hover:bg-transparent">
                   <button className="bg-green-700 hover:bg-white py-1 px-6 rounded-xl text-base uppercase font-bold">
-                    Cotizar
+                    SOFTWARE
                   </button>
                 </li>
               </ul>

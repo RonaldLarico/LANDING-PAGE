@@ -14,16 +14,16 @@ const GetStarted = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 mt-[180px] lg:mt-auto`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 mt-[330px] lg:mt-auto`}
     >
       <motion.div
         variants={planetVariants('left')}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/planet-09.png"
+          src="/metalurgica-jesac.jpg"
           alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
+          className="w-[90%] h-[70%] rounded-full"
         />
       </motion.div>
       <motion.div

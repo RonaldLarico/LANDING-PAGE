@@ -17,6 +17,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-tsparticles": "^2.9.0",
+    "react-typed": "^1.2.0",
     "tsparticles": "^2.9.0"
   },
   "devDependencies": {

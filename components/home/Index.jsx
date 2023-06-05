@@ -1,5 +1,7 @@
 import React from 'react'
-import { BsFillEnvelopeAtFill, BsFillPersonLinesFill, BsFacebook } from 'react-icons/bs';
+import Typed from 'react-typed';
+
+import { BsFillEnvelopeAtFill, BsFacebook } from 'react-icons/bs';
 import { IoLogoWhatsapp } from 'react-icons/Io';
 
 import Link from 'next/link';
@@ -36,10 +38,14 @@ const HomePage = () => {
       >
         <div className="feedback-gradient" />
         <div className='relative'>
-          <p className="font-bold sm:text-[25px] text-center text-[18px] sm:leading-[22.68px] leading-[26.68px] text-green-700">
-            METALÚRGICA
-          </p>
-          <h4 className="mt-[4px] font-bold sm:text-[92px] text-center text-[56px] sm:leading-[80.32px] leading-[26.32px] text-cyan-600">
+          <Typed
+          className="font-bold sm:text-[30px] text-center text-[18px] pl-20 sm:pl-12 sm:leading-[22.68px] leading-[26.68px] text-green-700"
+          strings={['METALÚRGICA', 'SOFTWARE', 'INDUSTRIAS']}
+        typeSpeed={100}
+        backSpeed={40}
+        loop
+          />
+          <h4 className="mt-[4px] font-bold sm:text-[99px] text-center text-[56px] sm:leading-[80.32px] leading-[26.32px] text-cyan-600">
             JESAC
           </h4>
           <p className="mt-[14px] font-bold sm:text-[20px] text-center text-[12px] sm:leading-[22.68px] leading-[16.68px] text-gray-100">

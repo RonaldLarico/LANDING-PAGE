@@ -26,7 +26,7 @@ export const metalCard = [
     },
   ];
 
-  export const miningCard = [
+export const miningCard = [
     {
       id: 'mining-1',
       imgUrl: '/metalurgica-jesac-procesos-metalurgicos.jpg',
