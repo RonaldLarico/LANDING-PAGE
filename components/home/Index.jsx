@@ -23,7 +23,7 @@ const slides = [
 
 const HomePage = () => {
   return (
-      <section id="home" className={`${styles.paddings} lg:mt-[120px] mt-[90px]`}>
+      <section id="home" className={`${styles.paddings} lg:mt-[75px] mt-[90px]`}>
 
         <motion.div
       variants={staggerContainer}

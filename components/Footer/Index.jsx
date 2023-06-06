@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='md:flex md:justify-between md:items-center bg-[#ffffff19] sm:px-12 px-4  py-5'>
       <ul className='flex items-center justify-normal py-4'>
               <BsFillEnvelopeAtFill className='text-3xl text-cyan-600'/>
-                <li className='mt-[4px] font-bold text-xl tracking-wide'> - Jesac@gmail.com</li>
+                <li className='font-bold text-xl tracking-wide pl-4'>  Jesac@gmail.com</li>
               </ul>
           <FooterIcons />
         <div>

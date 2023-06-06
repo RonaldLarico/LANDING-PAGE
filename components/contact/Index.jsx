@@ -18,7 +18,7 @@ import { TypingText } from '../cards/CustomTexts';
 const Contact = () => {
   return (
       <section id='contact' className='w-full mt-[220px] lg:mt-auto'>
-        <motion.div className='max-w-[1280px] m-auto px-2 py-16 w-full'
+        <motion.div className='max-w-[1280px] m-auto px-2 py-2 w-full'
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
@@ -40,19 +40,19 @@ const Contact = () => {
               </div>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <FaMapMarkerAlt className='text-3xl'/>
-                <li className='mt-[4px] font-bold text-lg'> | Av Sacsayhuaman N° 1680</li>
+                <li className='mt-[4px] font-bold text-lg pl-4'>Av Sacsayhuaman N° 1680</li>
               </ul>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <BsFillEnvelopeAtFill className='text-3xl'/>
-                <li className='mt-[4px] font-bold text-lg'> | Jesac@gmail.com</li>
+                <li className='mt-[4px] font-bold text-lg pl-4'>Jesac@gmail.com</li>
               </ul>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <BsTelephoneInboundFill className='text-3xl'/>
-                <li className='mt-[4px] font-bold text-lg'> | +51 991 303 509</li>
+                <li className='mt-[4px] font-bold text-lg pl-4'>+51 991 303 509</li>
               </ul>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <FaMapMarkerAlt className='text-3xl'/>
-                <li className='mt-[4px] font-bold text-lg'> | Juliaca - Perú</li>
+                <li className='mt-[4px] font-bold text-lg pl-4'>Juliaca - Perú</li>
               </ul>
               <div>
                 <p className='font-bold text-xl uppercase pt-6 text-gray-300'>Contactanos</p>
@@ -62,7 +62,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 text-4xl text-gray-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 hover:text-green-600 ease-in duration-300 text-4xl text-gray-300'>
                       <IoLogoWhatsapp />
                     </div>
                   </Link>
@@ -71,7 +71,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 text-4xl text-gray-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 hover:text-blue-600 ease-in duration-300 text-4xl text-gray-300'>
                       <BsFacebook />
                     </div>
                   </Link>
@@ -80,14 +80,14 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 text-4xl text-gray-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 hover:text-gray-800 ease-in duration-300 text-4xl text-gray-300'>
                       <FaTiktok />
                     </div>
                   </Link>
                   <Link
                   href='https://www.gmail.com'
                   target='_blank'>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 text-4xl text-gray-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 hover:text-cyan-700 ease-in duration-300 text-4xl text-gray-300'>
                   <BsFillEnvelopeAtFill />
                   </div>
                   </Link>
@@ -157,7 +157,7 @@ const Contact = () => {
             </div>
           </motion.div>
         </div>
-        <div className='flex justify-center py-12'>
+        <div className='flex justify-center lg:pt-12 pt-12'>
           <Link href='/'>
               <div className='animate-bounce rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp

@@ -1,31 +1,3 @@
-export const metalCard = [
-    {
-      id: 'metal-1',
-      imgUrl: '/metalurgica-jesac-fondo-3.jpg',
-      title: 'DISEÑO Y MONTAJE DE ESTRUCTURAS METÁLICAS',
-    },
-    {
-      id: 'metal-2',
-      imgUrl: '/metalurgica-jesac-fondo.jpg',
-      title: 'TECHOS Y COBERTURAS INDUSTRIALES',
-    },
-    {
-      id: 'metal-3',
-      imgUrl: '/metalurgica-jesac-fondo1.jpg',
-      title: 'FABRICACIÓN DE PRODUCTOS METÁLICOS',
-    },
-    {
-      id: 'metal-4',
-      imgUrl: '/metalurgica-jesac-home.jpg',
-      title: 'OBRAS DE INGENIERÍA METALMECÁNICA',
-    },
-    {
-      id: 'metal-5',
-      imgUrl: '/metalurgica-jesac-fondo2.jpg',
-      title: 'PROYECTOS EN ACEROS INOXIDABLES',
-    },
-  ];
-
 export const miningCard = [
     {
       id: 'mining-1',
@@ -36,7 +8,7 @@ export const miningCard = [
     },
     {
       id: 'mining-2',
-      imgUrl: '/metalurgica-jesac-plantas-concentradoras.jpg',
+      imgUrl: '/metalurgica-jesac-services8.jpg',
       title: 'INSTALACÍON DE PLANTAS CONCENTRADORAS DE MINERALES',
       subtitle: 'Mantenimiento preventivo de plantas concentradoras',
       subtitles: 'Elaboración de costos y presupuestos',
@@ -62,6 +34,35 @@ export const miningCard = [
       subtitle: 'hdp y polipropileno en minería',
     },
   ];
+
+export const metalCard = [
+    {
+      id: 'metal-1',
+      imgUrl: '/metalurgica-jesac-home.jpg',
+      title: 'DISEÑO Y MONTAJE DE ESTRUCTURAS METÁLICAS',
+    },
+    {
+      id: 'metal-2',
+      imgUrl: '/metalurgica-jesac-services6.jpg',
+      title: 'TECHOS Y COBERTURAS INDUSTRIALES',
+    },
+    {
+      id: 'metal-3',
+      imgUrl: '/metalurgica-jesac-services11.jpg',
+      title: 'FABRICACIÓN DE PRODUCTOS METÁLICOS',
+    },
+    {
+      id: 'metal-4',
+      imgUrl: '/metalurgica-jesac-fondo2.jpg',
+      title: 'OBRAS DE INGENIERÍA METALMECÁNICA',
+    },
+    {
+      id: 'metal-5',
+      imgUrl: '/metalurgica-jesac-services10.jpg',
+      title: 'PROYECTOS EN ACEROS INOXIDABLES',
+    },
+  ];
+
 
 export const newFeatures = [
     {

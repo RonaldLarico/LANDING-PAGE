@@ -19,7 +19,7 @@ const Slider = ({
     return () => clearInterval(slideInterval)
   }, [])
   return (
-    <div className="overflow-hidden relative w-full lg:h-[900px] h-auto min-h-[410px] object-cover rounded-[40px] flex justify-center items-center">
+    <div className="overflow-hidden relative w-full lg:h-[850px] h-auto min-h-[410px] object-cover rounded-[40px] flex justify-center items-center">
       <div
         className="flex transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}

@@ -17,7 +17,7 @@ const About = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 lg:pb-auto`}
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
@@ -26,13 +26,13 @@ const About = () => {
         <TypingText title="| SOBRE NOSOTROS" />
         <TitleText title={<>Somos una empresa</>} />
         <Typed
-        className='mt-[8px] font-bold md:text-[60px] text-[30px] text-gray-300'
+        className='mt-[8px] font-bold md:text-[60px] text-[30px] text-cyan-600'
         strings={['COMPROMETIDA', 'RESPONSABLE', 'INNOVADORA']}
         typeSpeed={140}
         backSpeed={40}
         loop
         />
-        <TitleText title={<>con los resultados</>} />
+        <TitleText title={<>con nuestro trabajo</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
