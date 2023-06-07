@@ -15,7 +15,7 @@ export const miningCard = [
     },
     {
       id: 'mining-3',
-      imgUrl: '/metalurgica-jesac-absorcion.jpg',
+      imgUrl: '/metalurgica-jesac-services12.jpg',
       title: 'ABSORCIÓN Y DESORCIÓN DE CARBÓN ACTIVADO',
       subtitle: 'Diseño y fabricación de plantas concentradoras continuas',
       subtitles: 'Suministro para procesos metalúrgicos',
@@ -29,7 +29,7 @@ export const miningCard = [
     },
     {
       id: 'mining-5',
-      imgUrl: '/metalurgica-jesac-fondo2.jpg',
+      imgUrl: '/metalurgica-jesac-absorcion.jpg',
       title: 'TRABAJOS EN GEOMEMBRANA',
       subtitle: 'hdp y polipropileno en minería',
     },

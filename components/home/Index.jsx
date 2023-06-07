@@ -14,11 +14,11 @@ import Slider from '../home/Slider'
 
 const slides = [
   "/metalurgica-jesac-home8.jpg",
-  "/metalurgica-jesac-separador-magnetico.jpg",
-  "/metalurgica-jesac-fondo.jpg",
-  "/metalurgica-jesac-home5.jpg",
   "/metalurgica-jesac-home9.jpg",
+  "/metalurgica-jesac-home5.jpg",
+  "/metalurgica-jesac-fondo.jpg",
   "/metalurgica-jesac-home10.jpg",
+  "/metalurgica-jesac-plantas-concentradoras.jpg",
 ]
 
 const HomePage = () => {

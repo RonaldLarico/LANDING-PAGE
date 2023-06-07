@@ -2,6 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
+import { BiHomeHeart } from 'react-icons/bi'
+import { MdMiscellaneousServices, MdOutlineConnectWithoutContact } from 'react-icons/md'
+import { CgProfile } from 'react-icons/cg'
+
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
@@ -48,22 +52,26 @@ function NavBar() {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="font-bold uppercase text-xl text-white py-6 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">
+                  <BiHomeHeart className='text-xl text-white'/>
+                <li className="font-bold uppercase text-lg text-white py-6 px-2 lg:pr-10 text-center border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Inicio
                   </Link>
                 </li>
-                <li className="font-bold uppercase text-xl text-white py-6 px-6 text-center  border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">
+                  <MdMiscellaneousServices className='text-xl text-white'/>
+                <li className="font-bold uppercase text-lg text-white py-6 px-2 lg:pr-10 text-center  border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">
                   <Link href="#services" onClick={() => setNavbar(!navbar)}>
                     Servicios
                   </Link>
                 </li>
-                <li className="font-bold uppercase text-xl text-white py-6 px-6 text-center  border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">
+                  <CgProfile className='text-xl text-white'/>
+                <li className="font-bold uppercase text-lg text-white py-6 px-2 lg:pr-10 text-center  border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">
                   <Link href="#about" onClick={() => setNavbar(!navbar)}>
                     Nosotros
                   </Link>
                 </li>
-                <li className="font-bold uppercase text-xl text-white py-6 px-6 text-center  border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">
+                  <MdOutlineConnectWithoutContact className='text-xl text-white'/>
+                <li className="font-bold uppercase text-lg text-white py-6 px-2 lg:pr-10 text-center  border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">
                   <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                     Contacto
                   </Link>
