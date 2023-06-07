@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <Head>
       <title>JESAC - Metalúrgica</title>
       <meta name='description' content='JESAC' />
-      <link rel='icon' href='/close.svg' />
+      <link rel='icon' href='/logo-head.png' />
     </Head>
 
     <NavBar />

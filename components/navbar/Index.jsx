@@ -17,10 +17,11 @@ function NavBar() {
               {/* LOGO */}
               <Link href="/">
                 <Image
-                  src="/metalurgica-logo.png"
+                  src="/logo-jesac.png"
                   width={30}
                   height={30}
                   alt="metalurgica-logo"
+                  className='w-32'
                 />
                 {/* <h2 className="text-2xl text-cyan-600 font-bold ">JESAC</h2> */}
               </Link>
@@ -31,7 +32,7 @@ function NavBar() {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <Image src="/close.svg" width={30} height={30} alt="logo" />
+                    <Image src="/close.svg" width={40} height={40} alt="logo" className="text-white" />
                   ) : (
                     <Image
                       src="/hamburger-menu.svg"

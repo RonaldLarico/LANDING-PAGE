@@ -36,6 +36,11 @@ const HomePage = () => {
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px]  border-[#6A6A6A] relative"
       >
+        <img
+            src="/logo-head.png"
+            alt="stamp"
+            className="lg:w-auto lg:h-auto lg:pl-1 lg:pb-5 w-56 pb-2 pl-14 "
+          />
         <div className="feedback-gradient" />
         <div className='relative'>
           <Typed
