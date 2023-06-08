@@ -44,7 +44,7 @@ const HomePage = () => {
         <div className="feedback-gradient" />
         <div className='relative'>
           <Typed
-          className="font-bold sm:text-[30px] text-center text-[18px] pl-20 sm:pl-12 sm:leading-[22.68px] leading-[26.68px] text-green-700"
+          className="font-bold sm:text-[30px] text-center text-[18px] pl-20 sm:pl-12 sm:leading-[22.68px] leading-[26.68px] text-[#bcdd43]"
           strings={['METALÚRGICA', 'SOFTWARE', 'INDUSTRIAS']}
         typeSpeed={100}
         backSpeed={40}

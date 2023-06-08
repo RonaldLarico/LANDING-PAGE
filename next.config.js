@@ -13,3 +13,5 @@ module.exports = {
     unoptimized: true,
   },
 };
+
+module.exports = nextConfig;
