@@ -29,7 +29,7 @@ const MiningCard = ({ id, imgUrl, title, subtitle, subtitles, index, active, han
         >
           <img
             src="/headset.svg"
-            alt="headset"
+            alt="metalurgica"
             className="w-1/2 h-1/2 object-contain"
           />
         </div>

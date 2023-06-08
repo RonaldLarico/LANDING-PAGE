@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { AiOutlineMail } from 'react-icons/ai';
 import { BsTelephoneInboundFill, BsFillEnvelopeAtFill,BsFacebook } from 'react-icons/bs';
 import { FaMapMarkerAlt, FaTiktok } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
@@ -58,19 +57,17 @@ const Contact = () => {
                 <p className='font-bold text-xl uppercase pt-6 text-gray-300'>Contactanos</p>
                 <div className='flex items-center justify-between py-4'>
                   <Link
-                    href='https://wa.me/+51991303509?text=Hola,%20deseo%20realizar%20una%20consulta%20'
+                    href='https://wa.me/+51957033871?text=Hola,%20deseo%20realizar%20una%20consulta%20'
                     target='_blank'
-                    rel='noreferrer'
-                  >
+                    rel='noreferrer'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 hover:text-green-600 ease-in duration-300 text-4xl text-gray-300'>
                       <IoLogoWhatsapp />
                     </div>
                   </Link>
                   <Link
-                    href='https://www.facebook.com'
+                    href='https://www.facebook.com/metalurgica.jesac'
                     target='_blank'
-                    rel='noreferrer'
-                  >
+                    rel='noreferrer'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 hover:text-blue-600 ease-in duration-300 text-4xl text-gray-300'>
                       <BsFacebook />
                     </div>
@@ -78,15 +75,15 @@ const Contact = () => {
                   <Link
                     href='https://www.tiktok.com'
                     target='_blank'
-                    rel='noreferrer'
-                  >
+                    rel='noreferrer'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 hover:text-gray-800 ease-in duration-300 text-4xl text-gray-300'>
                       <FaTiktok />
                     </div>
                   </Link>
                   <Link
                   href='https://www.gmail.com'
-                  target='_blank'>
+                  target='_blank'
+                  rel='noreferrer'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 hover:text-cyan-700 ease-in duration-300 text-4xl text-gray-300'>
                   <BsFillEnvelopeAtFill />
                   </div>

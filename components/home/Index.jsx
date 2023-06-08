@@ -66,7 +66,7 @@ const HomePage = () => {
         {/* icons homePage */}
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <Link
-              href='https://wa.me/+51991303509?text=Hola,%20deseo%20realizar%20una%20consulta%20'
+              href='https://wa.me/+51957033871?text=Hola,%20deseo%20realizar%20una%20consulta%20'
               target='_blank'
               rel='noreferrer'
             >
@@ -75,7 +75,7 @@ const HomePage = () => {
               </div>
             </Link>
             <Link
-              href='https://www.facebook.com'
+              href='https://www.facebook.com/metalurgica.jesac'
               target='_blank'
               rel='noreferrer'
             >

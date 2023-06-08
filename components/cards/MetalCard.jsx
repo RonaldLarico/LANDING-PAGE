@@ -15,7 +15,7 @@ const MetalCard = ({ id, imgUrl, title, subtitle, index, active, handleClick }) 
   >
     <img
       src={imgUrl}
-      alt="planet-04"
+      alt="metalurgica"
       className="absolute w-full h-full object-cover rounded-[24px]"
     />
     {active !== id ? (
@@ -29,7 +29,7 @@ const MetalCard = ({ id, imgUrl, title, subtitle, index, active, handleClick }) 
         >
           <img
             src="/headset.svg"
-            alt="headset"
+            alt="jesac"
             className="w-1/2 h-1/2 object-contain"
           />
         </div>
