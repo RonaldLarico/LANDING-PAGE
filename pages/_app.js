@@ -1,4 +1,4 @@
-import Design from '../components/design/Index';
+
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
