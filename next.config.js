@@ -2,9 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   output: "standalone",
-  experimental: {
+  /* experimental: {
     outputStandalone: true,
-  }
+  } */
 };
 
 module.exports = {
