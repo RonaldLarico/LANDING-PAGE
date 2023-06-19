@@ -26,7 +26,7 @@ const About = () => {
         <TypingText title="| SOBRE NOSOTROS" />
         <TitleText title={<>Somos una empresa</>} />
         <Typed
-        className='mt-[8px] font-bold md:text-[60px] text-[30px] text-[#bcdd43]'
+        className='mt-[8px] font-bold md:text-[71px] text-[35px] text-[#bcdd43]'
         strings={['COMPROMETIDA', 'RESPONSABLE', 'INNOVADORA']}
         typeSpeed={140}
         backSpeed={40}

@@ -20,8 +20,8 @@ const Footer = () => {
         <Link href="/">
                 <Image
                   src="/logo-jesac.png"
-                  width={30}
-                  height={30}
+                  width={200}
+                  height={200}
                   alt="metalurgica-logo"
                   className='lg:w-48 w-36 py-2'
                 />

@@ -18,10 +18,10 @@ function NavBar() {
               <Link href="/">
                 <Image
                   src="/logo-jesac.png"
-                  width={30}
-                  height={30}
+                  width={200}
+                  height={200}
                   alt="metalurgica-logo"
-                  className='w-32'
+                  className='lg:w-36 w-32'
                 />
                 {/* <h2 className="text-2xl text-cyan-600 font-bold ">JESAC</h2> */}
               </Link>
