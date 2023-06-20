@@ -3,7 +3,7 @@ import React from 'react'
 import { BsTelephoneInboundFill, BsFillEnvelopeAtFill,BsFacebook } from 'react-icons/bs';
 import { FaMapMarkerAlt, FaTiktok } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import { IoLogoWhatsapp } from 'react-icons/Io';
+import { IoLogoWhatsapp } from 'react-icons/io';
 
 import Image from 'next/image';
 import Link from 'next/link';

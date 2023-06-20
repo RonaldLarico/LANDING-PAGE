@@ -2,7 +2,7 @@ import React from 'react'
 import Typed from 'react-typed';
 
 import { BsFillEnvelopeAtFill, BsFacebook } from 'react-icons/bs';
-import { IoLogoWhatsapp } from 'react-icons/Io';
+import { IoLogoWhatsapp } from 'react-icons/io';
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
