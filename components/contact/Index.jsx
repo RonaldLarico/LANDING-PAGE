@@ -21,7 +21,7 @@ const Contact = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}>
-        <TypingText title="| CONTACTO" textStyles="text-center" />
+        <TypingText title="| CONTACTO" textStyles="text-center pb-8" />
 
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}

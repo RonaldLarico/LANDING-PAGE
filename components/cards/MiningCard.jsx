@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import styles from '../../styles';
 import { fadeIn } from '../../utils/motion';
 
-const MiningCard = ({ id, imgUrl, title, subtitle, subtitles, index, active, handleClick }) => (
+const MiningCard = ({ id, imgUrl, title, subtitle, text, index, active, handleClick }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
@@ -15,7 +15,7 @@ const MiningCard = ({ id, imgUrl, title, subtitle, subtitles, index, active, han
   >
     <img
       src={imgUrl}
-      alt="planet-04"
+      alt="jesac"
       className="absolute w-full h-full object-cover rounded-[24px]"
     />
     {active !== id ? (
@@ -37,7 +37,7 @@ const MiningCard = ({ id, imgUrl, title, subtitle, subtitles, index, active, han
           {subtitle}
         </p>
         <p className="font-semibold text-[14px] lg:text-[16px] leading-[20.16px] text-white uppercase p-1">
-          {subtitles}
+          {text}
         </p>
         <h2 className="mt-[5px] font-bold sm:text-[27px] text-[20px] text-white">
           {title}

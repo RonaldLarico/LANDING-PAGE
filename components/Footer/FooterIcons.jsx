@@ -2,7 +2,7 @@ import React from 'react'
 
 import Link from 'next/link';
 
-import { BsFacebook, BsInstagram, BsTiktok, BsWhatsapp } from "react-icons/bs";
+import { BsFacebook, BsYoutube, BsTiktok, BsWhatsapp } from "react-icons/bs";
 
 const FooterIcons = () => {
   return (
@@ -38,13 +38,13 @@ const FooterIcons = () => {
         </div>
         </Link>
         <Link
-                    href='https://www.instagram.com'
+                    href='https://www.youtube.com/@metalurgicajesacjuliaca5680/featured'
                     target='_blank'
                     rel='noreferrer'
                   >
-        <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 lg:text-4xl text-2xl text-amber-700 inline-flex items-center lg:mx-5
-        hover:text-amber-500'>
-          <BsInstagram/>
+        <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 lg:text-4xl text-2xl text-red-700 inline-flex items-center lg:mx-5
+        hover:text-red-500'>
+          <BsYoutube/>
         </div>
         </Link>
     </div>
