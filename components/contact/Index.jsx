@@ -5,18 +5,17 @@ import { FaMapMarkerAlt, FaTiktok } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import { IoLogoWhatsapp } from 'react-icons/io';
 
-import Image from 'next/image';
 import Link from 'next/link';
 
 import { motion } from 'framer-motion';
-import contact from '../../public/contact.jpg'
+import Maps from '../maps/Index'
 
 import { fadeIn, staggerContainer} from '../../utils/motion';
 import { TypingText } from '../cards/CustomTexts';
 
 const Contact = () => {
   return (
-      <section id='contact' className='w-full mt-[220px] lg:mt-auto'>
+      <section id='contact' className='w-full mt-[180px] lg:mt-auto'>
         <motion.div className='max-w-[1280px] m-auto px-2 py-2 w-full'
         variants={staggerContainer}
         initial="hidden"
@@ -24,18 +23,13 @@ const Contact = () => {
         viewport={{ once: false, amount: 0.25 }}>
         <TypingText title="| CONTACTO" textStyles="text-center" />
 
-        <h2 className='py-4'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
           <motion.div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-3xl p-4'
             variants={fadeIn('right', 'tween', 0.2, 1)}>
             <div className='lg:p-4 h-full '>
               <div>
-                <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={contact}
-                  alt='/'
-                />
+                <Maps />
               </div>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <FaMapMarkerAlt className='text-3xl'/>
@@ -43,11 +37,11 @@ const Contact = () => {
               </ul>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <BsFillEnvelopeAtFill className='text-3xl'/>
-                <li className='mt-[4px] font-bold text-lg pl-4'>Jesac@gmail.com</li>
+                <li className='mt-[4px] font-bold text-lg pl-4'>metalurgica.jesac@gmail.com</li>
               </ul>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <BsTelephoneInboundFill className='text-3xl'/>
-                <li className='mt-[4px] font-bold text-lg pl-4'>+51 991 303 509</li>
+                <li className='mt-[4px] font-bold text-lg pl-4'>+51 975 033 871</li>
               </ul>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <FaMapMarkerAlt className='text-3xl'/>
@@ -73,7 +67,7 @@ const Contact = () => {
                     </div>
                   </Link>
                   <Link
-                    href='https://www.tiktok.com'
+                    href='https://www.tiktok.com/@juvefrank'
                     target='_blank'
                     rel='noreferrer'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 hover:text-gray-800 ease-in duration-300 text-4xl text-gray-300'>

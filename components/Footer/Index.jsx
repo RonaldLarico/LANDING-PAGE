@@ -12,8 +12,8 @@ const Footer = () => {
     <footer className='bg-gray-900 text-white'>
       <div className='md:flex md:justify-between md:items-center bg-[#fffdfd28] sm:px-12 px-4  py-5'>
       <ul className='flex items-center justify-center py-4'>
-              <BsFillEnvelopeAtFill className='text-3xl text-cyan-600'/>
-                <li className='font-bold text-2xl tracking-wide pl-4'>  Jesac@gmail.com</li>
+              <BsFillEnvelopeAtFill className='lg:text-5xl text-3xl text-cyan-600'/>
+                <li className='font-bold lg:text-2xl tracking-wide pl-4'>  metalurgica.jesac@gmail.com</li>
               </ul>
           <FooterIcons />
         <div className='flex items-center justify-center'>

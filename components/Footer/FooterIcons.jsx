@@ -28,7 +28,7 @@ const FooterIcons = () => {
         </div>
       </Link>
       <Link
-                    href='https://www.tiktok.com'
+                    href='https://www.tiktok.com/@juvefrank'
                     target='_blank'
                     rel='noreferrer'
                   >

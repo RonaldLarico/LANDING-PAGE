@@ -69,7 +69,7 @@ export const textVariant2 = {
     },
   };
 
-export const planetVariants = (direction) => ({
+export const imageVariants = (direction) => ({
     hidden: {
       x: direction === 'left' ? '-100%' : '100%',
       rotate: 120,

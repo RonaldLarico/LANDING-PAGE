@@ -4,7 +4,7 @@ import styles from '../../styles';
 import { startingFeatures } from '../constants';
 import { TypingText } from '../cards/CustomTexts';
 import StartSteps from '../cards/StartSteps'
-import { staggerContainer, fadeIn, planetVariants } from '../../utils/motion';
+import { staggerContainer, fadeIn, imageVariants } from '../../utils/motion';
 
 const GetStarted = () => {
   return (
@@ -14,16 +14,16 @@ const GetStarted = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 mt-[330px] lg:mt-auto`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 mt-[420px] lg:mt-auto`}
     >
       <motion.div
-        variants={planetVariants('left')}
+        variants={imageVariants('left')}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/metalurgica-jesac.jpg"
+          src="/metalurgica-jesac-tig.jpg"
           alt="get-started"
-          className="w-[90%] h-[70%] rounded-full"
+          className="w-[90%] lg:h-[70%] h-[100%] rounded-[100px]"
         />
       </motion.div>
       <motion.div

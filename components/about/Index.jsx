@@ -7,7 +7,7 @@ import styles from '../../styles';
 import { newFeatures } from '../constants';
 import { TitleText, TypingText } from '../cards/CustomTexts';
 import  NewFeatures  from '../cards/NewFeatures'
-import { planetVariants, staggerContainer, fadeIn } from '../../utils/motion';
+import { staggerContainer, fadeIn, imageVariants } from '../../utils/motion';
 
 const About = () => {
   return (
@@ -41,13 +41,13 @@ const About = () => {
       </motion.div>
 
       <motion.div
-        variants={planetVariants('right')}
+        variants={imageVariants('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
           src="/metalurgica-jesac.jpg"
           alt="get-started"
-          className="w-[90%] h-[90%] rounded-full "
+          className="w-[90%] h-[90%] rounded-[80px]"
         />
       </motion.div>
     </motion.div>

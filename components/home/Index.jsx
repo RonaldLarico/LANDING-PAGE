@@ -1,7 +1,7 @@
 import React from 'react'
 import Typed from 'react-typed';
 
-import { BsFillEnvelopeAtFill, BsFacebook } from 'react-icons/bs';
+import { BsFacebook, BsTiktok } from 'react-icons/bs';
 import { IoLogoWhatsapp } from 'react-icons/io';
 
 import Link from 'next/link';
@@ -84,10 +84,10 @@ const HomePage = () => {
               </div>
             </Link>
             <Link
-              href='https://www.gmail.com'
+              href='https://www.tiktok.com/@juvefrank'
               target='_blank'>
               <div className='text-cyan-600 rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 text-4xl'>
-              <BsFillEnvelopeAtFill />
+              <BsTiktok />
               </div>
             </Link>
           </div>
