@@ -4,7 +4,7 @@ import Services from '../components/services/Index';
 import About from '../components/about/Index';
 import Contact from '../components/contact/Index';
 import Layout from '../components/layout/Index';
-import Footer from '../components/footer/Index';
+import Footer from '../components/feed/Index';
 import Whatsapp from '../components/whatsapp/Index';
 import Service from '../components/services/service';
 import Design from '../components/design/Index';
@@ -70,4 +70,3 @@ Home.getLayout = function getLayout(page) {
   )
 }
 
-//bg-[url('../public/metalurgica-jesac-fondo-3.jpg')]

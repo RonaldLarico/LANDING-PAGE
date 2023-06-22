@@ -1,6 +1,5 @@
 import React from "react";
 import GoogleMapReact from 'google-map-react';
-import credentials from "../credentials/Index";
 
 const Maps = () => {
 
@@ -19,7 +18,7 @@ const Maps = () => {
         // Important! Always set the container height explicitly
         <div style={{ height: '30vh', width: '100%' }}>
           <GoogleMapReact
-            bootstrapURLKeys={{ key: `${credentials.mapsKey}` }}
+            bootstrapURLKeys={{ key: '' }}
             defaultCenter={defaultProps.center}
             defaultZoom={defaultProps.zoom}
             defaultMarkers={defaultProps.markers}
