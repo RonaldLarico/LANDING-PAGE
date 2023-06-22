@@ -45,7 +45,7 @@ export const metalCard = [
     {
       id: 'metal-2',
       imgUrl: '/torneria-jesac.jpg',
-      title: 'SERVICIOS DE TORENERÍA Y CORTES EN PLASMA CNC',
+      title: 'SERVICIO DE TORNERÍA Y CORTES EN PLASMA CNC',
       subtitle: 'Fabricación de piezas metálicas'
     },
     {
