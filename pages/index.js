@@ -51,7 +51,11 @@ export default function Home() {
       <Contact />
     </div>
 
+    <div className="relative">
+      <div className="gradient-03 z-0" />
+      <div className="gradient-02 z-0" />
       <Footer />
+    </div>
 
       <Whatsapp />
     </div>

@@ -37,3 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### In production
 - docker build --no-cache --progress=plain -t jesac-app .
 - docker run -d -it -p 3000:3000 jesac-app
+
+//"eslint-config-prettier": "^8.8.0",
+//"eslint-plugin-prettier": "^4.2.1",
