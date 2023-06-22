@@ -1,6 +1,6 @@
 import React from "react";
 import GoogleMapReact from 'google-map-react';
-import credentials from "../../credentials/credentials";
+import credentials from "../../credentials/index";
 
 const Maps = () => {
 
