@@ -17,13 +17,13 @@ const GetStarted = () => {
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 mt-[420px] lg:mt-auto`}
     >
       <motion.div
-        variants={imageVariants('left')}
+        variants={fadeIn('right', 'tween', 0.2, 1)}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
           src="/metalurgica-jesac-tig.jpg"
           alt="get-started"
-          className="w-[90%] lg:h-[70%] h-[100%] rounded-[100px]"
+          className="w-[90%] lg:h-[70%] h-[100%] lg:rounded-[60px] rounded-[30px]"
         />
       </motion.div>
       <motion.div

@@ -15,7 +15,7 @@ import { TypingText } from '../cards/CustomTexts';
 
 const Contact = () => {
   return (
-      <section id='contact' className='w-full mt-[130px] lg:mt-auto'>
+      <section id='contact' className='w-full mt-[70px] lg:mt-auto'>
         <motion.div className='max-w-[1280px] m-auto px-2 py-2 w-full'
         variants={staggerContainer}
         initial="hidden"
@@ -153,7 +153,7 @@ const Contact = () => {
           </motion.div>
         </div>
         <div className='flex justify-center lg:pt-12 pt-12'>
-          <Link href='/'>
+          <Link href='#home'>
               <div className='animate-bounce rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
                   className='text-gray-300'

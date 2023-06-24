@@ -50,7 +50,7 @@ const HomePage = () => {
         backSpeed={40}
         loop
           />
-          <h4 className="mt-[4px] font-bold sm:text-[99px] text-center text-[60px] sm:leading-[80.32px] leading-[26.32px] text-cyan-600">
+          <h4 className="mt-[4px] font-bold sm:text-[99px] text-center text-[60px] sm:leading-[80.32px] leading-[26.32px] text-cyan-600 p-1">
             JESAC
           </h4>
           <p className="mt-[14px] font-bold sm:text-[20px] text-center text-[12px] sm:leading-[22.68px] leading-[16.68px] text-gray-100">

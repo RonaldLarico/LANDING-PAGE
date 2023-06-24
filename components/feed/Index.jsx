@@ -17,7 +17,7 @@ const Footer = () => {
               </ul>
           <FooterIcons />
         <div className='flex items-center justify-center'>
-        <Link href="/">
+        <Link href="#home">
                 <Image
                   src="/logo-jesac.png"
                   width={200}

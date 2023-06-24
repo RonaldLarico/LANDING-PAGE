@@ -15,7 +15,7 @@ function NavBar() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
-              <Link href="/">
+              <Link href="#home">
                 <Image
                   src="/logo-jesac.png"
                   width={200}
@@ -55,7 +55,7 @@ function NavBar() {
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                   <BiHomeHeart className='text-xl text-white'/>
                 <li className="font-bold uppercase text-lg text-white py-6 px-2 lg:pr-10 text-center border-b-2 md:border-b-0  hover:bg-cyan-600  border-cyan-600  md:hover:text-cyan-600 md:hover:bg-transparent">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#home" onClick={() => setNavbar(!navbar)}>
                     Inicio
                   </Link>
                 </li>

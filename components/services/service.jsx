@@ -19,7 +19,7 @@ const Service = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col mt-[300px] lg:mt-[230px]`}
+        className={`${styles.innerWidth} mx-auto flex flex-col mt-[200px] lg:mt-[230px]`}
       >
         <TypingText title="| SERVICIOS EN METALMECÁNICA" textStyles="text-center" />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">

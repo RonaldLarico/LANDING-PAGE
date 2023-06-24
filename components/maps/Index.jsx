@@ -3,8 +3,6 @@ import GoogleMapReact from 'google-map-react';
 
 import Marker from './Marker';
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
 const points = [
   { id: 1, title: "JESAC Metalúrgica", lat: -15.475365, lng: -70.155118 },
 ];
