@@ -14,7 +14,7 @@ import Slider from '../home/Slider'
 
 const slides = [
   "/metalurgica-jesac-home8.jpg",
-  "/metalurgica-jesac-home9.jpg",
+  "/jesac-planta-disorcion.jpg",
   "/metalurgica-jesac-home5.jpg",
   "/metalurgica-jesac-fondo.jpg",
   "/metalurgica-jesac-home10.jpg",
@@ -39,18 +39,18 @@ const HomePage = () => {
         <img
             src="/logo-head.png"
             alt="stamp"
-            className="lg:w-auto lg:h-auto lg:pl-1 lg:pb-5 w-56 pb-2 pl-14 "
+            className="lg:w-auto lg:h-auto lg:pl-1 lg:pb-5 w-64 pb-5 pl-16"
           />
         <div className="feedback-gradient" />
         <div className='relative'>
           <Typed
-          className="font-bold sm:text-[30px] text-center text-[18px] pl-20 sm:pl-12 sm:leading-[22.68px] leading-[26.68px] text-[#bcdd43]"
+          className="font-bold sm:text-[30px] text-center text-[18px] pl-[95px] sm:pl-12 sm:leading-[22.68px] leading-[26.68px] text-[#bcdd43]"
           strings={['METALÚRGICA', 'SOFTWARE', 'INDUSTRIAS']}
         typeSpeed={100}
         backSpeed={40}
         loop
           />
-          <h4 className="mt-[4px] font-bold sm:text-[99px] text-center text-[56px] sm:leading-[80.32px] leading-[26.32px] text-cyan-600">
+          <h4 className="mt-[4px] font-bold sm:text-[99px] text-center text-[60px] sm:leading-[80.32px] leading-[26.32px] text-cyan-600">
             JESAC
           </h4>
           <p className="mt-[14px] font-bold sm:text-[20px] text-center text-[12px] sm:leading-[22.68px] leading-[16.68px] text-gray-100">

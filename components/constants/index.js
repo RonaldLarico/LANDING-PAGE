@@ -8,7 +8,7 @@ export const miningCard = [
     },
     {
       id: 'mining-2',
-      imgUrl: '/metalurgica-jesac-services8.jpg',
+      imgUrl: '/metalurgica-jesac-home5.jpg',
       title: 'INSTALACÍON DE PLANTAS CONCENTRADORAS DE MINERALES',
       subtitle: 'Mantenimiento preventivo de plantas concentradoras',
       text: 'Elaboración de costos y presupuestos',

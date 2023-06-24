@@ -1,6 +1,14 @@
 import React from "react";
 import GoogleMapReact from 'google-map-react';
 
+import Marker from './Marker';
+
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
+
+const points = [
+  { id: 1, title: "JESAC Metalúrgica", lat: -15.475365, lng: -70.155118 },
+];
+
 const Maps = () => {
 
     const defaultProps = {
@@ -9,10 +17,6 @@ const Maps = () => {
           lng: -70.155118,
         },
         zoom: 16,
-        markers: {
-            lat: -15.475365,
-            lng: -70.155118,
-        }
       };
       return (
         // Important! Always set the container height explicitly
@@ -20,9 +24,14 @@ const Maps = () => {
           <GoogleMapReact
             bootstrapURLKeys={{ key: '' }}
             defaultCenter={defaultProps.center}
-            defaultZoom={defaultProps.zoom}
-            defaultMarkers={defaultProps.markers}
-          >
+            defaultZoom={defaultProps.zoom}>
+
+            {points.map(({ lat, lng, id, title }) => {
+            return (
+            <Marker key={id} lat={lat} lng={lng} text={id} tooltip={title} />
+          );
+        })}
+
           </GoogleMapReact>
         </div>
       );

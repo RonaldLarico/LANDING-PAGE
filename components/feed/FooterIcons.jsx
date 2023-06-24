@@ -17,6 +17,7 @@ const FooterIcons = () => {
           <BsWhatsapp/>
         </div>
       </Link>
+
       <Link
                     href='https://www.facebook.com/metalurgica.jesac'
                     target='_blank'
@@ -27,6 +28,7 @@ const FooterIcons = () => {
           <BsFacebook/>
         </div>
       </Link>
+
       <Link
                     href='https://www.tiktok.com/@juvefrank'
                     target='_blank'

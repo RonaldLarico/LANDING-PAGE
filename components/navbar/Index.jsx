@@ -22,8 +22,8 @@ function NavBar() {
                   height={200}
                   alt="metalurgica-logo"
                   className='lg:w-36 w-32'
+                  priority={false}
                 />
-                {/* <h2 className="text-2xl text-cyan-600 font-bold ">JESAC</h2> */}
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">

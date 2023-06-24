@@ -10,6 +10,7 @@
     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
+    "eslint-config-next": "^13.4.6",
     "framer-motion": "^10.12.16",
     "google-map-react": "^2.2.1",
     "next": "13.4.6",
@@ -18,8 +19,7 @@
     "react-icons": "^4.9.0",
     "react-tsparticles": "^2.10.1",
     "react-typed": "^1.2.0",
-    "tsparticles": "^2.10.1",
-    "eslint-config-next": "^13.4.6"
+    "tsparticles": "^2.10.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

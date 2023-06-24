@@ -15,7 +15,7 @@ import { TypingText } from '../cards/CustomTexts';
 
 const Contact = () => {
   return (
-      <section id='contact' className='w-full mt-[180px] lg:mt-auto'>
+      <section id='contact' className='w-full mt-[130px] lg:mt-auto'>
         <motion.div className='max-w-[1280px] m-auto px-2 py-2 w-full'
         variants={staggerContainer}
         initial="hidden"
@@ -29,7 +29,11 @@ const Contact = () => {
             variants={fadeIn('right', 'tween', 0.2, 1)}>
             <div className='lg:p-4 h-full '>
               <div>
-                <Maps />
+                <Maps
+                className='grid grid-cols-1 p-10'
+                with={2000}
+                height={2000}
+                 />
               </div>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <FaMapMarkerAlt className='text-3xl'/>
@@ -41,7 +45,7 @@ const Contact = () => {
               </ul>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <BsTelephoneInboundFill className='text-3xl'/>
-                <li className='mt-[4px] font-bold text-lg pl-4'>+51 975 033 871</li>
+                <li className='mt-[4px] font-bold text-lg pl-4'>+51 957 033 871</li>
               </ul>
               <ul className='flex items-center justify-normal py-4 text-gray-300'>
               <FaMapMarkerAlt className='text-3xl'/>
