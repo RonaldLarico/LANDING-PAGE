@@ -21,9 +21,9 @@ const GetStarted = () => {
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/metalurgica-jesac-tig.jpg"
+          src="/inox_tig_jesac.jpeg"
           alt="get-started"
-          className="w-[90%] lg:h-[70%] h-[100%] lg:rounded-[60px] rounded-[30px]"
+          className="w-[90%] lg:h-[85%] h-[100%] lg:rounded-[60px] rounded-[30px]"
         />
       </motion.div>
       <motion.div

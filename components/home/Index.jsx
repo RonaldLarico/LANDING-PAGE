@@ -14,11 +14,12 @@ import Slider from '../home/Slider'
 
 const slides = [
   "/metalurgica-jesac-home8.jpg",
-  "/jesac-planta-disorcion.jpg",
+  "/metalurgica-jesac-services12.jpg",
   "/metalurgica-jesac-home5.jpg",
   "/metalurgica-jesac-fondo.jpg",
   "/metalurgica-jesac-home10.jpg",
   "/metalurgica-jesac-plantas-concentradoras.jpg",
+  "/dember_jesac.jpeg"
 ]
 
 const HomePage = () => {
@@ -36,9 +37,9 @@ const HomePage = () => {
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px]  border-[#6A6A6A] relative"
       >
-        <img
+         <img
             src="/logo-head.png"
-            alt="stamp"
+            alt="logo-head"
             className="lg:w-auto lg:h-auto lg:pl-1 lg:pb-5 w-64 pb-5 pl-16"
           />
         <div className="feedback-gradient" />

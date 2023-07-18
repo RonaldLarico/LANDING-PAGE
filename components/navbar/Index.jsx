@@ -23,6 +23,7 @@ function NavBar() {
                   alt="metalurgica-logo"
                   className='lg:w-36 w-32'
                   priority={false}
+                  srcset=""
                 />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}

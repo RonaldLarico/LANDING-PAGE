@@ -8,14 +8,14 @@ export const miningCard = [
     },
     {
       id: 'mining-2',
-      imgUrl: '/metalurgica-jesac-home5.jpg',
+      imgUrl: '/concentradora_jesac.jpeg',
       title: 'INSTALACÍON DE PLANTAS CONCENTRADORAS DE MINERALES',
       subtitle: 'Mantenimiento preventivo de plantas concentradoras',
       text: 'Elaboración de costos y presupuestos',
     },
     {
       id: 'mining-3',
-      imgUrl: '/metalurgica-jesac-services12.jpg',
+      imgUrl: '/planta_desorcion_jesac.jpeg',
       title: 'ABSORCIÓN Y DESORCIÓN DE CARBÓN ACTIVADO',
       subtitle: 'Diseño y fabricación de plantas concentradoras continuas',
       text: 'Suministro para procesos metalúrgicos',
@@ -29,7 +29,7 @@ export const miningCard = [
     },
     {
       id: 'mining-5',
-      imgUrl: '/metalurgica-jesac-absorcion.jpg',
+      imgUrl: '/celda_electrolitica_jesac.jpeg',
       title: 'TRABAJOS EN GEOMEMBRANA',
       subtitle: 'hdp y polipropileno en minería',
     },
